@@ -31,12 +31,12 @@ You can now browse the [API](http://localhost:8000/api/) or start on the [landin
 
 Create a Kubernetes manifest for a pod that will contain a ToDo app container:
 
-1. Fork this repository.
-1. Modify pod manifest to deploy a second same pod with a different name.
-1. Add labels to pods “app: todolist”
-1. Create a manifest for a ClusterIP service, which should balance traffic between two pods
-1. Create a manifest for a NodePort service, which should expose an application on a Node Level
-1. Set all env values for the container from the pod’s manifest
+1. + Fork this repository.
+1. + Modify pod manifest to deploy a second same pod with a different name.
+1. + Add labels to pods “app: todolist”
+1. + Create a manifest for a ClusterIP service, which should balance traffic between two pods
+1. + Create a manifest for a NodePort service, which should expose an application on a Node Level
+1. + Set all env values for the container from the pod’s manifest
 1. Create the `INSTRUCTION.md` file
 1. `INSTRUCTION.md` should contain instructions on how to test an app by calling a ClusterIP service DNS from a busybox container
 1. `INSTRUCTION.md` file should contain instructions on how to test ToDo application using the service `port-forward` command
